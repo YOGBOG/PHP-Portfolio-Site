@@ -1,0 +1,128 @@
+:root{
+    --secondary: #0096ff;
+    --font: 'Quicksand', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+}
+
+body{background: #121212;}
+
+.top-nav .user{position: relative;bottom: 2.4em;left: 0.5em;float: right;}
+.top-nav .user h1,.user p{float: left;margin-top: 0.25em;margin-right: 0.3em;}
+.top-nav .user p{margin-top: 0.89em;}
+.top-nav .user img{height: 2.9em;border-radius: 25px 0px 0px 25px;}
+.top-nav{
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.75);
+    border-bottom: 4px solid #0077ca;
+    color: white;
+    position: fixed;
+    padding: 0.5em;
+    background: var(--secondary);
+    height: 1.9em;
+    width: 100%;
+    z-index: 1;
+}
+
+nav ul{
+    float: left;
+    list-style-type: none;
+    padding: 4.2em 1em 1em 0.4em;
+    width: 6em;
+    height: 91%;
+    color: white;
+    background: #272727;
+}
+
+nav li{
+    margin: -3px;
+    margin-bottom: 1px;
+}
+
+nav a{
+    color: inherit;
+    text-decoration: none;
+}
+
+.panel .fa{font-size: 3em;}
+.panel{
+    margin: auto;
+    width: 27.9%;
+    text-align: center;
+    color: white;
+    background: #0096ff;
+    float: left;
+    margin-top: 4em;
+    margin-left: 1em;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.panel table{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    background: #0000001c;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.panel table th{
+    color: white;
+    background: #00000096;
+}
+
+.panel td{
+    color: #ffffffa6;
+    background: #00000036;
+}
+
+.active{
+    color: #ffffff;
+    background: #0096ff;
+    padding: 8px;
+    width: 100%;
+    margin: 0.5em 0em 0.5em -0.2em;
+}
+
+.panel-accounts{
+    width: 90%;
+    padding: 1em;
+    margin: 1em;
+    color: white;
+}
+
+.panel-accounts p{
+    margin-bottom: 1em;
+}
+
+.panel-pages table h1{font-size: 20px;}
+.panel-pages p{margin-bottom: 1em;}
+.panel-pages{
+    width: 89.5%;
+    margin-top: 0;
+}
+
+.options p{margin: 0;}
+.options{
+    margin: auto;
+    width: 50%;
+    margin-top: 1em;
+    border-radius: 5px;
+    border: 3px solid #00000026;
+    background: #0077ca;
+}
+
+button{
+    background: #ffffff;
+    border: 2px solid #0077ca;
+    border-radius: 5px;
+    padding: 0.5em;
+    margin: 0.5em;
+    font-weight: bold;
+}
